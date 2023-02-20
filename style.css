@@ -1,8 +1,36 @@
 img {
     max-width: 200px;
     height: 200px;
+    padding: 20px;
+    
 }
 
 body{
     background-color: gray;
+    text-align: center;
+}
+
+.header{
+    display: block;
+    background-color: white;
+    border: 50%;
+    margin: 0;
+    padding: 20px;
+}
+
+.text{
+    font-size: 30px;
+    padding: 30px;
+}
+
+.selections{
+    display: flex;
+    justify-content: center
+    
+}
+
+.scores{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
 }
